@@ -1,0 +1,40 @@
+to overcome the shortcomings of conventional cloud storage by integrating fog computing into its architecture. A key element of our design is a strategic placement algorithm that disperses data across various storage components. Also we focus on the integrity verification problem in regenerating-code-based cloud storage, especially with the functional repair strategy. To fully ensure the data integrity and save the users’ computation resources as well as online burden, we propose a public auditing scheme for the regenerating-code-based cloud storage, in which the integrity checking and regeneration (of failed data blocks and authenticators) are implemented by a third party auditor and a semi-trusted proxy separately on behalf of the data owner. Instead of directly adapting the existing public auditing scheme to the multi-server setting, we design a novel authenticator, which is more appropriate for regenerating codes.
+
+FUNCTIONAL SYSTEM ARCHITECHTURE
+ 
+
+
+
+¬¬TECHNIQUE AND ALGORITHMS:
+	Encryption and Decryption¬¬¬¬
+	Quick Retrieval Technique (QRT).
+	Hashing Technique
+
+ADVANTAGE OF PROPOSED SYSTEM:
+	Our scheme is provable secure and the performance evaluation shows that our scheme is highly efficient and can be feasibly integrated into a regenerating-code-based cloud storage system.
+	Security: elaborate on the correctness of verification in our auditing scheme and then formally evaluate the security by analyzing its fulfillment of soundness, regeneration-unforgivable and secure guarantee.
+
+METHODOLOGY
+Our methodology for implementing the proposed distributed storage system involves a multifaceted approach aimed at ensuring security, privacy, and efficiency. The initial phase focuses on designing and implementing encryption and decryption mechanisms to protect user data. A robust encryption algorithm is developed to the unauthorized access, enhancing the security and privacy of stored information. Simultaneously, we integrate Quick Retrieval Techniques (QRT) to optimize data accessibility, ensuring swift retrieval from distributed storage components. To address strategic data placement, we incorporate a hashing technique into our algorithm, intelligently dispersing data across diverse storage components. This algorithm is intricately crafted to optimize storage utilization, minimize latency, and bolster availability, leveraging fog computing principles and edge resources. Our methodology introduces a tailored public auditing scheme for regenerating-code-based cloud storage, specifically targeting the integrity verification problem, with a focus on the functional repair strategy. This scheme minimizes user computation resources and online burdens by employing a third-party auditor and a semi-trusted proxy for integrity checking and regeneration on behalf of the data owner. An innovative authenticator, designed for regenerating codes, enhances the efficiency of this scheme. To assess performance and security, a comprehensive analysis is conducted. Performance evaluations demonstrate the feasibility and integration capabilities of our scheme within a regenerating-code-based cloud storage environment. Security evaluation involves scrutinizing correctness in our auditing scheme, analyzing soundness and secure guarantees. This methodology ensures the successful implementation and validation of our proposed system, contributing significantly to the evolution of secure and efficient cloud storage solutions.
+
+HARDWARE & SOFTWARE REQUIREMENTS:
+HARDWARE REQUIREMENTS:
+· System 		: 		Pentium IV 2.4 GHz.
+· Hard Disk 		: 		500 GB.
+· Ram 		: 		8 GB
+•	Any desktop / Laptop system with above configuration or higher level
+
+SOFTWARE REQUIREMENTS:
+
+Operating system 		: 	Windows 8 / 10
+Coding Language 		: 	Java (Jdk 1.7) 
+Web Technology 		: 	Servlet, JSP
+Web Server	 		: 	TomCAT 6.0
+IDE		 		: 	Eclipse Galileo
+Database	 		: 	My-SQL 5.0 
+UGI for DB	 		: 	SQLyog 
+JDBC Connection 		: 	Type 4 Driver
+
+CONCLUSION
+In our project introduces a revolutionary cloud storage system, blending fog computing and regenerating codes to overcome conventional cloud limitations. Emphasizing privacy, latency, and availability, the system employs a strategic placement algorithm inspired by information theory. Innovative techniques like encryption, Quick Retrieval Technique, and hashing enhance efficiency, ensuring user privacy and high availability. With up to 50% redundancy and regenerating codes, the fault-tolerant mechanism fortifies against data corruption. A public auditing scheme with a unique authenticator offers a robust solution for integrity verification. Provable security and high efficiency, validated through empirical analysis, highlight the system's viability for regenerating-code-based cloud storage, presenting a significant advancement in storage solutions.
+

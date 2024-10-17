@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app>
+
+	<servlet>
+		<servlet-name>AdminLogin</servlet-name>
+		<servlet-class>com.admin.AdminLogin</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AdminLogin</servlet-name>
+		<url-pattern>/AdminLogin</url-pattern>
+	</servlet-mapping>
+
+
+
+	<servlet>
+		<servlet-name>ChangePass</servlet-name>
+		<servlet-class>com.admin.ChangePass</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ChangePass</servlet-name>
+		<url-pattern>/ChangePass</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>SignOut</servlet-name>
+		<servlet-class>com.admin.SignOut</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SignOut</servlet-name>
+		<url-pattern>/SignOut</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>EditProfile</servlet-name>
+		<servlet-class>com.admin.EditProfile</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EditProfile</servlet-name>
+		<url-pattern>/EditProfile</url-pattern>
+	</servlet-mapping>
+
+	
+
+
+	<servlet>
+		<servlet-name>FileUpload</servlet-name>
+		<servlet-class>com.admin.FileUpload</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>FileUpload</servlet-name>
+		<url-pattern>/FileUpload</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Download</servlet-name>
+		<servlet-class>com.user.Download</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Download</servlet-name>
+		<url-pattern>/Download</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Download_New</servlet-name>
+		<servlet-class>com.user.Download_New</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Download_New</servlet-name>
+		<url-pattern>/Download_New</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Profile</servlet-name>
+		<servlet-class>com.admin.Profile</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Profile</servlet-name>
+		<url-pattern>/Profile</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>GetFileTrans</servlet-name>
+		<servlet-class>com.file.GetFileTrans</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GetFileTrans</servlet-name>
+		<url-pattern>/GetFileTrans</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>FileDownload</servlet-name>
+		<servlet-class>com.file.FileDownload</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>FileDownload</servlet-name>
+		<url-pattern>/FileDownload</url-pattern>
+	</servlet-mapping>
+
+
+
+	<servlet>
+		<servlet-name>DownloadFile</servlet-name>
+		<servlet-class>com.support.DownloadFile</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DownloadFile</servlet-name>
+		<url-pattern>/DownloadFile</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>EditCloud</servlet-name>
+		<servlet-class>com.admin.EditCloud</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EditCloud</servlet-name>
+		<url-pattern>/EditCloud</url-pattern>
+	</servlet-mapping>
+	
+
+	<servlet>
+		<servlet-name>UserLogin</servlet-name>
+		<servlet-class>com.user.UserLogin</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UserLogin</servlet-name>
+		<url-pattern>/UserLogin</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ChangePass_User</servlet-name>
+		<servlet-class>com.user.ChangePass_User</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ChangePass_User</servlet-name>
+		<url-pattern>/ChangePass_User</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>NewUser</servlet-name>
+		<servlet-class>com.user.NewUser</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>NewUser</servlet-name>
+		<url-pattern>/NewUser</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>EditProfile_User</servlet-name>
+		<servlet-class>com.user.EditProfile_User</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EditProfile_User</servlet-name>
+		<url-pattern>/EditProfile_User</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Profile_User</servlet-name>
+		<servlet-class>com.user.Profile_User</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Profile_User</servlet-name>
+		<url-pattern>/Profile_User</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>SearchContent</servlet-name>
+		<servlet-class>com.user.SearchContent</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SearchContent</servlet-name>
+		<url-pattern>/SearchContent</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	
+	<servlet>
+		<servlet-name>Pass</servlet-name>
+		<servlet-class>com.support.Pass</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Pass</servlet-name>
+		<url-pattern>/Pass</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	
+	
+	
+	
+
+</web-app>

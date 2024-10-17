@@ -1,0 +1,22 @@
+ge resources. Our methodology introduces a tailored public auditing scheme for regenerating-code-based cloud storage, specifically targeting the integrity verification problem, with a focus on the functional repair strategy. This scheme minimizes user computation resources and online burdens by employing a third-party auditor and a semi-trusted proxy for integrity checking and regeneration on behalf of the data owner. An innovative authenticator, designed for regenerating codes, enhances the efficiency of this scheme. To assess performance and security, a comprehensive analysis is conducted. Performance evaluations demonstrate the feasibility and integration capabilities of our scheme within a regenerating-code-based cloud storage environment. Security evaluation involves scrutinizing correctness in our auditing scheme, analyzing soundness and secure guarantees. This methodology ensures the successful implementation and validation of our proposed system, contributing significantly to the evolution of secure and efficient cloud storage solutions.
+
+HARDWARE & SOFTWARE REQUIREMENTS:
+HARDWARE REQUIREMENTS:
+· System 		: 		Pentium IV 2.4 GHz.
+· Hard Disk 		: 		500 GB.
+· Ram 		: 		8 GB
+•	Any desktop / Laptop system with above configuration or higher level
+
+SOFTWARE REQUIREMENTS:
+
+Operating system 		: 	Windows 8 / 10
+Coding Language 		: 	Java (Jdk 1.7) 
+Web Technology 		: 	Servlet, JSP
+Web Server	 		: 	TomCAT 6.0
+IDE		 		: 	Eclipse Galileo
+Database	 		: 	My-SQL 5.0 
+UGI for DB	 		: 	SQLyog 
+JDBC Connection 		: 	Type 4 Driver
+
+CONCLUSION
+In our project introduces a revolutionary cloud storage system, blending fog computing and regenerating codes to overcome conventional cloud limitations. Emphasizing privacy, latency, and availability, the system employs a strategic placement algorithm inspired by information theory. Innovative techniques like encryption, Quick Retrieval Technique, and hashing enhance efficiency, ensuring user privacy and high availability. With up to 50% redundancy and regenerating codes, the fault-tolerant mechanism fortifies against data corruption. A public auditing scheme with a unique authenticator offers a robust solution for integrity verification. Provable security and high efficiency, validated through empirical analysis, highlight the system's viability for regenerating-code-based cloud storage, presenting a significant advancement in storage solutions.

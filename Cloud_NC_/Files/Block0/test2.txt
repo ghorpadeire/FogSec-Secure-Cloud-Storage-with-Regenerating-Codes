@@ -1,0 +1,2 @@
+ABSTRACT:
+In recent years cloud storage services have gained much attention, there is a growing demand for innovative solutions that address the inherent limitations of traditional platforms, particularly concerning privacy, latency, and availability. This project introduces a novel approach to storage systems by leveraging the principles of fog computing, tapping into edge resources to enhance classical cloud storage services. Our proposed distributed storage 

@@ -1,0 +1,3 @@
+he contemporary challenges faced by cloud storage services.
+OBJECTIVE 
+The objective of this project is to pioneer a distributed storage system that integrates fog computing, strategically dispersing data to address traditional cloud storage limitations. Leveraging regenerating codes and innovative algorithms, the system aims to enhance privacy, availability, and fault tolerance while introducing a secure public auditing scheme for data integrity verification.
